@@ -25,7 +25,7 @@ A full-stack e-commerce platform built with the MERN stack (MongoDB, Express.js,
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/yourusername/repository-name.git
+   git clone https://github.com/nisargPatel06/WebMart-MERN.git
    ```
 
 2. Install dependencies:
