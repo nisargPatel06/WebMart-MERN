@@ -48,7 +48,7 @@ A full-stack e-commerce platform built with the MERN stack (MongoDB, Express.js,
    - For the frontend:
      ```bash
      cd frontend
-     npm start
+     npm run dev
      ```
 
 ## Folder Structure
