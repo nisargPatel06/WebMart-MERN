@@ -1,0 +1,19 @@
+.file {
+  display: none;
+}
+
+.change {
+  width: 10vw;
+  padding: 0.4rem;
+  font-size: 14px;
+  text-align: center;
+  color: #ff6b35;
+  background-color: white;
+  border: 1px solid rgba(0, 0, 0, 0.178);
+  border-radius: 5px;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+.change:hover {
+  background-color: #f8f8f8;
+}

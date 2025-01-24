@@ -1,0 +1,8 @@
+button:hover .icon {
+  right: 12px;
+  display: block;
+}
+
+.icon {
+  transition: all ease 0.15s;
+}

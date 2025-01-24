@@ -1,0 +1,63 @@
+.ap-input {
+  padding: 0.5vw;
+  padding-left: 1vw;
+  width: 25vw;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  gap: 1vw;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+.ap-input > input {
+  width: 100%;
+  height: 5vh;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+.ta-input {
+  padding: 0.5vw;
+  padding-left: 1vw;
+  width: 25vw;
+  height: fit-content;
+  display: flex;
+  gap: 1vw;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+textarea {
+  width: 100%;
+  min-height: 5vh;
+  padding-top: 3px;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+.ap-input > select {
+  width: 100%;
+  height: 5vh;
+  outline: none;
+  background-color: #f0f0f0;
+}
+
+.file {
+  display: none;
+}
+
+.select-images {
+  width: 60%;
+  height: 5vh;
+  border: none;
+  background-color: #ebebeb;
+  color: #555555;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all linear 0.13s;
+}
+.select-images:hover {
+  background-color: #e2e2e2;
+}

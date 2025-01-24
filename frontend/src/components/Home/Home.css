@@ -1,0 +1,85 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css");
+
+.box {
+  width: 265px;
+  height: 310px;
+}
+.box-1 {
+  background: url("https://res.cloudinary.com/dfllnkw9t/image/upload/v1718967944/E-commerce/images/ukyisw45vajbfbaqvgqg.avif");
+  background-size: cover;
+  background-position: center;
+}
+.box-2 {
+  background: url("https://res.cloudinary.com/dfllnkw9t/image/upload/v1718967944/E-commerce/images/xzdyukjcrk2tg9bffq1x.avif");
+  background-size: cover;
+  background-position: center;
+}
+.box-3 {
+  background: url("https://res.cloudinary.com/dfllnkw9t/image/upload/v1718967943/E-commerce/images/yfd2x9vxojybb4y85i4d.avif");
+  background-size: cover;
+  background-position: top;
+}
+.box-4 {
+  background: url("https://res.cloudinary.com/dfllnkw9t/image/upload/v1718967943/E-commerce/images/ff7tofjm71s7hnxnrs9b.avif");
+  background-size: cover;
+  background-position: center;
+}
+.box-5 {
+  background: url("https://res.cloudinary.com/dfllnkw9t/image/upload/v1718967943/E-commerce/images/t3ztz4zipmfayf4dduxj.avif");
+  background-size: cover;
+  background-position: right;
+}
+.box-6 {
+  background: url("https://images.unsplash.com/photo-1640132219022-e7a98b4c92e9?q=80&w=1409&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  background-size: cover;
+  background-position: center;
+}
+.box-7 {
+  background: url("https://res.cloudinary.com/dfllnkw9t/image/upload/v1718967943/E-commerce/images/pvuemnvssckvgkngc9ky.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+@media (width < 1200px) {
+  .banner {
+    display: none;
+  }
+  .slide-container {
+    width: 100%;
+    will-change: auto;
+  }
+  .card-container {
+    margin: 20px 10px;
+    gap: 20px;
+  }
+  .cards .img {
+    width: 250px;
+  }
+}
+@media (width < 900px) {
+  .cards .img {
+    width: 280px;
+  }
+}
+@media (width < 700px) {
+  .cards .img {
+    width: 240px;
+  }
+}
+@media (width < 700px) and (width > 370px) {
+  .cards .img {
+    width: 280px;
+  }
+}
+
+@media (width < 300px) {
+  .card-container {
+    margin: 20px 5px;
+    gap: 10px;
+  }
+  .cards .img {
+    height: 270px;
+    width: 200px;
+  }
+}

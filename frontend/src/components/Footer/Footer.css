@@ -1,0 +1,103 @@
+@media (width < 1100px) {
+  .footer {
+    height: auto;
+    padding: 1vw;
+  }
+  .top {
+    padding: 1vw;
+  }
+  .logo-container {
+    width: 23vw;
+  }
+  .container {
+    width: auto;
+    gap: 6vw;
+  }
+  .bottom {
+    height: auto;
+    padding: 1vw;
+  }
+}
+
+@media (width < 950px) {
+  .container {
+    gap: 5vw;
+  }
+}
+@media (width < 850px) {
+  .footer {
+    padding: 0;
+  }
+  .container {
+    gap: 3vw;
+  }
+  .logo > img {
+    height: 90px;
+    width: 90px;
+  }
+}
+@media (width < 700px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    gap: 5vw;
+  }
+  .container {
+    gap: 3vw;
+  }
+  .logo-container {
+    width: 80vw;
+  }
+  .logo > img {
+    height: 90px;
+    width: 90px;
+  }
+  .slogan {
+    text-align: center;
+  }
+  .container {
+    gap: 5vw;
+  }
+}
+@media (width < 550px) {
+  .bottom {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .copyright,
+  .follow {
+    padding: 1vw;
+  }
+  .container {
+    font-size: 15px;
+  }
+  .top {
+    gap: 10vw;
+  }
+}
+@media (width < 400px) {
+  .container {
+    display: flex;
+    justify-content: center;
+    font-size: 12px;
+  }
+  .logo > img {
+    height: 60px;
+    width: 60px;
+  }
+  .copyright > p,
+  .icon {
+    font-size: 11px;
+  }
+  .follow {
+    gap: 10vw;
+  }
+  .follow > p {
+    font-size: 16px;
+  }
+  .follow > div {
+    gap: 5vw;
+  }
+}
